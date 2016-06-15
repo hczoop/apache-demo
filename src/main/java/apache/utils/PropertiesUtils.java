@@ -25,6 +25,12 @@ public class PropertiesUtils {
         }
         return properties;
 	}
+	
+	
+	public static String getValue(String key) {
+		String value = properties.getProperty(key);
+		return value;
+	}
 
 
 }
